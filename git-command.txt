@@ -1,0 +1,20 @@
+ git init 
+   ls -al
+  git status
+   vim python.py
+   python3  python.py
+   git status
+   git add python.py
+   git status
+   git rm --cached python.py
+  git status
+  git add .
+   git status
+  git commit -m "testing file"
+   git status
+    ls -l
+   rm -rf *
+    ls -l
+   git status
+    git restore python.py 
+   git status
